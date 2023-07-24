@@ -1,0 +1,4 @@
+{% for tweet in all_tweets %}
+<li> {{all_tweets[tweet]["tweettitle"]}} : {{all_tweets[tweet]["tweettext"]}} </li>
+{% endfor %}
+<a href="/add_tweet"><button>add tweets</button></a>
